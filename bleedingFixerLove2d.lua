@@ -87,6 +87,13 @@ function Fixer(tile_w, tile_h, spr)
         app.command.Copy()
         app.command.DeselectMask()
         app.command.Paste()
+        app.command.MoveMask{
+            target='content',
+            direction='left',
+            units='pixel',
+            quantity=1,
+            wrap=false
+        }
         app.command.DeselectMask()
 
         --right
@@ -103,7 +110,7 @@ function Fixer(tile_w, tile_h, spr)
             target='content',
             direction='right',
             units='pixel',
-            quantity=tile_w + 1,
+            quantity=1,
             wrap=false
         }
         app.command.DeselectMask()
@@ -118,6 +125,13 @@ function Fixer(tile_w, tile_h, spr)
         app.command.Copy()
         app.command.DeselectMask()
         app.command.Paste()
+        app.command.MoveMask{
+            target='content',
+            direction='up',
+            units='pixel',
+            quantity= 1,
+            wrap=false
+        }
         app.command.DeselectMask()
 
         --down
@@ -134,7 +148,7 @@ function Fixer(tile_w, tile_h, spr)
             target='content',
             direction='down',
             units='pixel',
-            quantity= tile_h + 1,
+            quantity= 1,
             wrap=false
         }
         app.command.DeselectMask()
