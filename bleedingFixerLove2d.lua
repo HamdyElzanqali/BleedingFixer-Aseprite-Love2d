@@ -6,7 +6,7 @@ if not spr then
     return
 end
 
-local d = Dialog("Bleading Fixer for LOVE2D")
+local d = Dialog("Bleeding Fixer for LOVE2D")
 d:label{ id="help", label="", text="Set the width and height of the tile" }
  :number{ id="tile_w", label="Tile Width:", text="16", focus=true }
  :number{ id="tile_h", label="Tile Height:", text="16" }
