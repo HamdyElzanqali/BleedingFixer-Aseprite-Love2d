@@ -1,7 +1,7 @@
 # BleedingFixer-Aseprite-Love2d
 A simple script for Aseprite used to add borders to tilesheets. Useful for fixing bleeding in Love2d
 
-Last tested with Aseprite v1.2.12 <br />
+Last tested with Aseprite v1.2.16 <br />
 To add the script <br />
 (1)go to file/scripts/(open scripts folder) <br />
 (2)copy the script there (.lua file) <br />
