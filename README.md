@@ -11,5 +11,6 @@ To add the script <br />
 to use simply open the tilesheet and go to file/script/bleedingFixerLove2d <br />
 set your tile width and height. <br />
 
-You can become a patreon if you want :3
+You can become a [Patreon](https://www.patreon.com/HamdyElzonqali) if you want :3
+
 Have Fun <3
