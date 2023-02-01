@@ -2,12 +2,12 @@ local spr = app.activeSprite
 
 -- Checks for a valid sprite
 if not spr then
-    app.alert("There is no sprite to export")
+    app.alert("There is no sprite to export!")
     return
 end
 
 local d = Dialog("Bleeding Fixer for LOVE2D")
-d:label{ id="help", label="", text="Set the width and height of the tile" }
+d:label{ id="help", label="", text="Set the width and height of each tile." }
  :number{ id="tile_w", label="Tile Width:", text="16", focus=true }
  :number{ id="tile_h", label="Tile Height:", text="16" }
  :check {id="sameColor", label="Same color:", selected = true}
