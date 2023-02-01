@@ -5,7 +5,6 @@ Useful for fixing the bleeding problem in Love2d.<br />
 Last tested with Aseprite v1.2.16 <br />
 
 ## Installation
-To add the script <br />
 1. go to `file --> scripts --> (open scripts folder)` <br />
 2. copy the script file `bleedingFixerLove2d.lua` there. <br />
 
