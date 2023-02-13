@@ -18,6 +18,6 @@ This script may crush Aseprite or irreversibly mess up your art.<br />
 5. Press `Ctrl+Z` to restore your original tileset.<br />
 
 Contributions are welcome. <br />
-I also have a [Patreon](https://www.patreon.com/HamdyElzonqali) Page.<br />
+I also have a [Patreon](https://www.patreon.com/HamdyElzanqali) Page.<br />
 
 Have Fun <3
